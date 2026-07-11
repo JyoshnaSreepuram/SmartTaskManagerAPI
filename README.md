@@ -1,12 +1,18 @@
-namespace SmartTaskManagerAPI.Models;
+# SmartTaskManager API
 
-public class TaskItem
-{
-    public int TaskId { get; set; }
+A task management system built using ASP.NET Core Web API and C#.
 
-    public string Title { get; set; }
+## Features
 
-    public string Description { get; set; }
+- Task Management
+- CRUD Operations
+- SQL Database Integration
+- REST API
+- Authentication
 
-    public string Status { get; set; }
-}
+## Technologies
+
+- C#
+- ASP.NET Core
+- SQL Server
+- Entity Framework Core
